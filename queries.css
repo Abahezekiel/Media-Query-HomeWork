@@ -1,0 +1,184 @@
+@media (min-width: 320px) and (max-width: 767px){
+  nav{
+    background-color: white;
+    height: 50px;
+    /* width: 80%; */
+    /* padding: 10px 60px; */
+  }
+  .nav-bar{
+    background-color: white;
+  height: 50px;
+  width: 100%;
+  position: fixed;
+  padding: 5px;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+    padding-left:  35px;
+    padding-right:  15px;
+  justify-content: space-between;
+  }
+  .flex{
+    display: flex;
+  }
+  .nav-bar img{
+    /* background-color: orange; */
+    height: 50px;
+    width: 50px;
+  }
+  .nav-text{
+    /* background-color: green; */
+    height: 50px;
+    width: 80%;
+    list-style: none;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 12px;
+    font-weight:500;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif !important;
+    text-transform: uppercase;
+  }
+  .nav-text a{
+    text-decoration: none;
+    color: black;
+  
+  }
+  .nav-right{
+    /* background-color: pink; */
+    height: 50px;
+    width: 20%;
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+    padding-right: 30px;
+
+  }
+  .nav-right img{
+    height: 40px;
+    width: 40px;
+    /* background-color: red; */
+  }
+
+
+  .bg-1{
+    background-image: url(../MQ-HW/kfc/Kentucky_Town.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 350px;
+    width: 100%;
+    color: black;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   position: relative;
+  }
+  .bg-1 h1{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 20px;
+    margin-bottom: 0;
+  }
+  
+  .btn1{
+    background-color: red;
+    color: white;
+    font-size: 11px;
+    padding: 5px 0;
+    border: none;
+    cursor: pointer;
+  }
+ 
+  .history{
+    height: 150px;
+    /* width: 100%; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 35px 50px;
+    margin-top: 170px;
+  }
+  .history h2{
+    text-transform: uppercase;
+    font-size: 20px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .history p{
+    font-size: 15px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+  }
+
+  .media-section{
+   
+    width: 100% !important;
+    flex-direction: column;
+    color: white;
+    align-items: center !important;
+    text-align: center !important;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif !important;
+    margin-top: 200px;
+  
+  }
+  .media{
+    background-color: red;
+    width: 100% !important;
+    /* height: 60px; */
+    display: flex;
+    align-items: center !important;
+    text-align: center !important;
+    justify-content: center !important;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif !important;
+  }
+  
+  footer{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    /* flex-direction: column; */
+    margin-top: 130px;
+    line-height: .5;
+    height: 350px;
+  }
+  .about h2{
+    font-size: 13px;
+    margin-bottom: 24px;
+    font-weight: 700;
+    color: red;
+    text-transform: uppercase;
+    line-height: 1.2;
+  }
+  .foot-img img{
+    width: 100px;
+    /* height: 30px; */
+  }
+  .footer-bottom{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    height: 9px;
+    width: 100%;
+    /* justify-content: space-around; */
+    padding: 3px;
+    font-size: 10px;
+}  
+.overlay{
+  height: 350px;
+  background-color: rgba(0, 0, 0, 0.36);
+  width: 100%;
+  position: absolute;
+}
+}
+ 

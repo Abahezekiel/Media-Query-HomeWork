@@ -1,0 +1,172 @@
+body{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+  
+
+}
+nav{
+  background-color: white;
+  height: 100px;
+  /* width: 80%; */
+  /* padding: 10px 60px; */
+}
+.nav-bar{
+  background-color: white;
+height: 100px;
+width: 100%;
+position: fixed;
+padding: 10px;
+}
+.flex{
+  display: flex;
+}
+.nav-bar img{
+  /* background-color: orange; */
+  height: 100px;
+  width: 100px;
+}
+.nav-text{
+  /* background-color: green; */
+  height: 100px;
+  width: 80%;
+  list-style: none;
+  gap: 20px;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-size: 24px;
+  font-weight:900;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif !important;
+  text-transform: uppercase;
+}
+.nav-text a{
+  text-decoration: none;
+  color: black;
+
+}
+.nav-right{
+  /* background-color: pink; */
+  height: 100px;
+  width: 20%;
+  align-items: center;
+  justify-content: space-between;
+  display: flex;
+}
+.nav-right img{
+  height: 20px;
+  width: 20px;
+}
+.bg-1{
+  background-color: aqua;
+  background-image: url(../MQ-HW/kfc/Kentucky_Town.png) !important;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 700px;
+  width: 100%;
+  color: black;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.bg-1 h1{
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 40px;
+  margin-bottom: 0;
+}
+
+.btn1{
+  background-color: red;
+  color: white;
+  font-size: 22px;
+  padding: 10px 0;
+  border: none;
+  cursor: pointer;
+}
+
+.history{
+  /* background-color: green; */
+  height: 300px;
+  /* width: 100%; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 70px 100px;
+}
+.history h2{
+  text-transform: uppercase;
+  font-size: 25px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.history p{
+  font-size: 18px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ 
+}
+.media-section{
+  /* background-color: red; */
+  height: 70px;
+  width: 100%;
+  display: flex;
+  gap: 3px;
+  color: white;
+  align-items: center;
+  text-align: center;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif !important;
+
+}
+.media{
+  background-color: red;
+  width: 100%;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif !important;
+
+}
+footer{
+  background-color: #f6f6f6;
+  display: flex;
+  gap: 30px;
+  padding: 20px;
+  height: 300px;
+}
+.foot-img{
+  /* background-color: red; */
+  height: 200px;
+  width: 100%;
+}
+.foot-img img{
+  width: 200px;
+}
+.about{
+  /* background-color: green; */
+  height: 200px;
+  width: 100%;
+  font-size: 12px;
+}
+.footer-bottom{
+  height: 70px;
+  width: 100%;
+  justify-content: space-around;
+  padding: 10px ;
+}
+
+
+
+/* .media */
+
+
+
